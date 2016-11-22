@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>二货看过来</title>
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<style type="text/css">
+		img{
+			width: 100%;
+		}
+		h1{
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h1>二货在此,谁敢不服！！！</h1>
+	<img src="images/729268592872847035.jpg" class="animated" alt="">
+
+	<script type="text/javascript">
+	document.querySelector('h1').onclick=function(){
+		var _this=this;
+		this.className='animated bounceOutLeft';
+		setTimeout(function(){
+			_this.className='animated bounceInLeft';
+		},1500)
+	};
+	document.querySelector('img').onclick=function(){
+		var _this=this;
+		this.className='animated bounceOut';
+		setTimeout(function(){
+			_this.className='animated bounceIn';
+		},1500)
+	};
+	</script>
+</body>
+</html>

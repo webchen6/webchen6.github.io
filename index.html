@@ -72,11 +72,25 @@
       <h2>统统二十块！</h2>
 
       </header>
-    <img src="images/01.jpg" height="1066" width="800" alt="测试图片1">
-    <img src="images/02.jpg" height="1066" width="800" alt="测试图片2">
-    <img src="images/03.jpg" height="1066" width="800" alt="测试图片3">
-    <img src="images/04.jpg" height="1066" width="800" alt="测试图片3">
-    <img src="images/05.jpg" height="1066" width="800" alt="测试图片3">
+    <h1>二货在此,谁敢不服！！！</h1>
+  <img src="images/729268592872847035.jpg" class="animated" alt="">
+
+  <script type="text/javascript">
+  document.querySelector('h1').onclick=function(){
+    var _this=this;
+    this.className='animated bounceOutLeft';
+    setTimeout(function(){
+      _this.className='animated bounceInLeft';
+    },1500)
+  };
+  document.querySelector('img').onclick=function(){
+    var _this=this;
+    this.className='animated bounceOut';
+    setTimeout(function(){
+      _this.className='animated bounceIn';
+    },1500)
+  };
+  </script>
     <footer class="article-footer">
       <a data-url="javascript:;" class="article-share-link">Share</a>
       
